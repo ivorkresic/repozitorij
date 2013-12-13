@@ -1,7 +1,7 @@
 class TimeSeries(object):
     def __init__(self, data):
         self.data = data
-    
+# adding a few comments to your code     
     def get(self, x):
         for (xi,yi) in self.data:
             if xi == x:
